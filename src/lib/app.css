@@ -1,0 +1,35 @@
+@import url(https://s3-ap-southeast-1.amazonaws.com/www.k-ih.co.uk/Centaur.ttf);
+
+:root{
+    --theme-colour-dark: #937100;
+    --theme-colour-mid: #c7990b;
+    --theme-colour-light: #e6b00f;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    text-align: center;
+    font-family: Centaur;
+    color: var(--theme-colour-dark);
+}
+
+a{
+    text-decoration: none;
+}
+
+.fade-in{
+    animation: fadeIn;
+    animation-duration: var(--duration);
+    animation-delay: var(--delay);
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

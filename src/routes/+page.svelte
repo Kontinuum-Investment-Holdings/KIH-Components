@@ -1,8 +1,5 @@
 <script type="ts">
-    import NewComponent from "../lib/NewComponent.svelte";
+    import Text from "$lib/Text.svelte";
 </script>
 
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<NewComponent label="Hello World"/>
+<Text text="Hi World"/>
